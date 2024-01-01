@@ -9,9 +9,12 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Gateway", "Gateway", "{7A6F
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Integration", "Integration", "{08596977-3B19-45DE-ACA6-0466A064CF27}"
 EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Services", "Services", "{E373C47C-DB15-4855-BAB4-AA0386BAAE60}"
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{F35B63D7-9D35-44D6-B33C-52641751D802}"
+	ProjectSection(SolutionItems) = preProject
+		.editorconfig = .editorconfig
+	EndProjectSection
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "K.KTastyFood.Services.CouponAPI", "K.KTastyFood.Services.CouponAPI\K.KTastyFood.Services.CouponAPI.csproj", "{C4C42CF1-1DD1-4DCF-AB4E-EDB8D13C82DB}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "K.KTastyFood.Web", "K.KTastyFood.Web\K.KTastyFood.Web.csproj", "{40796BCB-B557-490D-8547-F281EA6CA74B}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -19,16 +22,16 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{C4C42CF1-1DD1-4DCF-AB4E-EDB8D13C82DB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{C4C42CF1-1DD1-4DCF-AB4E-EDB8D13C82DB}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{C4C42CF1-1DD1-4DCF-AB4E-EDB8D13C82DB}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{C4C42CF1-1DD1-4DCF-AB4E-EDB8D13C82DB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{40796BCB-B557-490D-8547-F281EA6CA74B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{40796BCB-B557-490D-8547-F281EA6CA74B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{40796BCB-B557-490D-8547-F281EA6CA74B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{40796BCB-B557-490D-8547-F281EA6CA74B}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
-		{C4C42CF1-1DD1-4DCF-AB4E-EDB8D13C82DB} = {E373C47C-DB15-4855-BAB4-AA0386BAAE60}
+		{40796BCB-B557-490D-8547-F281EA6CA74B} = {32DE212F-6882-4A48-8620-4F778C3C2F38}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {0F03322F-6040-44A4-B989-336B8A03A14A}
